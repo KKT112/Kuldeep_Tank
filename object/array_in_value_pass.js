@@ -14,8 +14,8 @@ let mainPlain = {
     }
 };
 
- mainPlain.book("abc",23); //function call
- mainPlain.book("our",27);
+ mainPlain.book("jadu",23); //function call
+ mainPlain.book("tony",27);
 
  console.log(mainPlain); //object print
 
@@ -24,17 +24,27 @@ let mainPlain = {
 
  let childplain = {
     airline:"child plain",
-    iatacode:220,
+    iatanum:220,
     booking:[],
  };
 
- let book = mainPlain.book;
+ let book2 = mainPlain.book; //pass the value of key in obj1
 
- //function return 
+ //call method
+ book2.call(childplain,"xyz",77);  //provide to another obj to acess the array
 
-const t = book.bind(childplain,"xyz",577);
+ console.log("****************");
+
+ //apply method
+
+ book2.apply(childplain,["kkt",54]);
+
+ //bind method 
+
+const t = book2.bind(childplain,"thor",577);
 t();
 console.log(childplain);
+
 
   
  

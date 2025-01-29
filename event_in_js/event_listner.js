@@ -26,4 +26,5 @@ button.addEventListener("click", function () {
   let li = document.createElement("li");
   li.textContent= "new";
   ul.append(li);
+  //ul.prepend(li);
 });
