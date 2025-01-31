@@ -1,9 +1,8 @@
 
 
-let voterCheker = function (age, fn) {
-return fn(age)
-
-};
+let voterCheker = function (age, fn) {  //function
+return fn(age);  //function
+}
 
 const isEligible =(age)=>{
 
@@ -11,9 +10,9 @@ const isEligible =(age)=>{
 
 }
 
-//console.log(compliment("you are good")("carrey"));
- const check = voterCheker(12, isEligible);
 
- console(check);
+ const check = voterCheker(22, isEligible);
+
+ console.log(check);
 
 

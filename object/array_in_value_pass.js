@@ -43,7 +43,7 @@ let mainPlain = {
 
 const t = book2.bind(childplain,"thor",577);
 t();
-console.log(childplain);
+console.log(childplain); //that create a object and we can call further that object
 
 
   

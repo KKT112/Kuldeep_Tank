@@ -1,6 +1,6 @@
 //inheritance by using extends keyword
 
-class Vehicle{
+/*class Vehicle{
     constructor(color,model){
         this.color=color;
         this.model=model;
@@ -29,3 +29,28 @@ console.log(devidputra);
 
 let honda2= new bike("black",2021,"2000cc");
 console.log(honda2);
+*/
+
+class Movie{
+    constructor(rate,value){
+        this.rate=rate;
+        this.value=value;
+    }
+
+    Defined(rate){
+
+        return  `${rate}good job`;
+    }
+}
+
+class Amount extends Movie{
+         constructor(rate,story,time){
+            super(rate);
+            this.story=story;
+            this.time=time;
+           
+         }
+}
+
+let movie1 = new Amount(8.8,"nice","154_min");
+console.log(movie1.Defined(78.8));

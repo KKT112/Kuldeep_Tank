@@ -143,6 +143,16 @@ let football = ["sunil","messi","ronaldo","neymar"];
 
 console.log(football.lastIndexOf("messi")); //SAME AS INDEXOF
 
+
+//join 
+
+let new1=[2,3,4];
+console.log(new1.join("A"));
+
+//pop
+console.log(new1.pop());
+console.log(new1.push(6));
+console.log(new1.unshift(112));
  
 
 

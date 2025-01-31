@@ -41,9 +41,9 @@ movie1.movierating = "no idea";
 
 Movie.review = function(){
     console.log("here is rating");
-}
+} 
 
-Movie.review();
+Movie.review();  //here review is diract object with class and call in the function
 
 
 
